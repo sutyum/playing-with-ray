@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "playing-with-ray"
+version = "0.1.0"
+description = ""
+authors = ["Satyam Tiwary <satyam@technoculture.io>"]
+readme = "README.md"
+packages = [{include = "playing_with_ray"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ray = "^2.41.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
